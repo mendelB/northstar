@@ -166,6 +166,7 @@ return [
         Fideloper\Proxy\TrustedProxyServiceProvider::class,
         Jenssegers\Mongodb\MongodbServiceProvider::class,
         Jenssegers\Mongodb\Auth\PasswordResetServiceProvider::class,
+        DoSomething\Gateway\Laravel\GatewayServiceProvider::class,
         DoSomething\StatHat\StatHatServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
 
